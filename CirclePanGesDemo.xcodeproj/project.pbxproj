@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C95146641F317605008B7F05 /* DrawRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = C95146631F317605008B7F05 /* DrawRectView.m */; };
 		C9521CEF1F304F2800216E9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9521CEE1F304F2800216E9F /* main.m */; };
 		C9521CF21F304F2800216E9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9521CF11F304F2800216E9F /* AppDelegate.m */; };
 		C9521CF51F304F2800216E9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9521CF41F304F2800216E9F /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C95146621F317605008B7F05 /* DrawRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawRectView.h; sourceTree = "<group>"; };
+		C95146631F317605008B7F05 /* DrawRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRectView.m; sourceTree = "<group>"; };
 		C9521CEA1F304F2800216E9F /* CirclePanGesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CirclePanGesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9521CEE1F304F2800216E9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9521CF01F304F2800216E9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				C9521CF41F304F2800216E9F /* ViewController.m */,
 				C9521D201F30501200216E9F /* CircleView.h */,
 				C9521D211F30501200216E9F /* CircleView.m */,
+				C95146621F317605008B7F05 /* DrawRectView.h */,
+				C95146631F317605008B7F05 /* DrawRectView.m */,
 				C9521CF61F304F2800216E9F /* Main.storyboard */,
 				C9521CF91F304F2800216E9F /* Assets.xcassets */,
 				C9521CFB1F304F2800216E9F /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C95146641F317605008B7F05 /* DrawRectView.m in Sources */,
 				C9521D221F30501200216E9F /* CircleView.m in Sources */,
 				C9521CF51F304F2800216E9F /* ViewController.m in Sources */,
 				C9521CF21F304F2800216E9F /* AppDelegate.m in Sources */,
@@ -524,6 +530,7 @@
 				C9521D191F304F2800216E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9521D1A1F304F2800216E9F /* Build configuration list for PBXNativeTarget "CirclePanGesDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +539,7 @@
 				C9521D1C1F304F2800216E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9521D1D1F304F2800216E9F /* Build configuration list for PBXNativeTarget "CirclePanGesDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +548,7 @@
 				C9521D1F1F304F2800216E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
